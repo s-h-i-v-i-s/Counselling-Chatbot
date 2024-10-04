@@ -27,7 +27,7 @@ st.title(f"Career Advisor Chatbot {emoji.emojize(':robot:')}")
 
 global vectors
 # Define your directory containing PDF files here
-pdf_dir = r'/Users/shivamsharma/Downloads/K. S. Bratsch - Career Choices (2002, American Book Publishing Group) - libgen.li.pdf'
+pdf_dir = '/Users/shivamsharma/Downloads/K. S. Bratsch - Career Choices (2002, American Book Publishing Group) - libgen.li.pdf'
 
 if "pdf_texts" not in st.session_state:
     temp_pdf_texts = []
